@@ -236,6 +236,7 @@
                                     <Specification-Title>JDBC</Specification-Title>
                                     <Specification-Version>${jdbc.specification.version}</Specification-Version>
                                     <Specification-Vendor>Oracle Corporation</Specification-Vendor>
+                                    <Automatic-Module-Name>org.postgresql.jdbc</Automatic-Module-Name>
                                 </manifestEntries>
                                 <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
                             </archive>
